@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codigo-ofuscado"
+version = "1.0.0"
+description = "Código extremamente ofuscado para competição"
+requires-python = ">=3.6"
+dependencies = []
+
+[project.scripts]
+codigo = "codigo:main"
