@@ -37,7 +37,7 @@ def b1():
 def b2():
     global a1
     print("\n" + "=" * 20)
-    print("       JOGO DA VELHA")
+    print("       JOGO ")
     print("=" * 20)
     print("       1   2   3")
     print("      -----------")
@@ -188,7 +188,7 @@ def b15():
     if a4 is not None:
         print(f"    JOGADOR {a4} VENCEU!")
     else:
-        print("    DEU VELHA! EMPATE!")
+        print("    DEU EMPATE!")
     print("=" * 30)
     
     print("\nHistórico de jogadas:")
@@ -262,7 +262,7 @@ def b20():
 def main():
     global a3
     
-    print("Bem-vindo ao JOGO DA VELHA!")
+    print("Bem-vindo ao jogo!")
     print("As posições são numeradas de 1 a 9:")
     print(" 1 | 2 | 3 ")
     print("-----------")
