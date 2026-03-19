@@ -1,0 +1,1 @@
+import re,unicodedata as ___________,unicodedata;___=___________.normalize;__=re.sub;_=input;__________=lambda _______:''.join(_______ for _______ in ___('NFD',_______) if unicodedata.category(_______)!='Mn');________________=lambda _____________:__(r'[^a-zA-Z0-9\s]','',_____________);print(________________(__________(_())))

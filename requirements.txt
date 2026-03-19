@@ -1,0 +1,3 @@
+# Dependências padrão do Python (já incluídas)
+# re - módulo de expressões regulares (built-in)
+# unicodedata - módulo de dados Unicode (built-in)
